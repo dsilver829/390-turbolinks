@@ -1,3 +1,2 @@
-jQuery ->
-  $('.edit_task input[type=checkbox]').click ->
+  $(document).on 'click', '.edit_task input[type=checkbox]', ->
     $(this).parent('form').submit()
